@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+  
+main {
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+#thoughts{
+    margin: 20px;
+    width: 50%;
+    height: 200px;
+}
+
+h2{
+    padding-top: 50px;
+}
+
+.blog-container {
+    width: 70%;              
+    margin: 0 auto;           
+    text-align: left;         
+}
+
+.css{
+    color: black;
+}
+
+.thisone{
+    border: 2px solid rgb(91, 91, 91);
+    border-radius: 8px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.post-actions {
+    display: flex;
+    gap: 10px; 
+}
+
+.post-actions input[type="submit"] {
+    cursor: pointer;
+    padding: 5px 10px; 
+}
+
+
+
